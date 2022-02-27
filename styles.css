@@ -1,0 +1,84 @@
+body {
+  background-color: #1E1B28;
+  font-family: 'Noto Sans', monospace;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+.settings {
+  background-color: #1E1B28;
+  font-family: 'Noto Sans', monospace;
+  border: 3px solid #BC87B2;
+  border-radius: 10px;
+  color: #CC9BC2;
+  padding: 6px;
+}
+
+.button {
+  background-color: #CC9BC2;
+  font-family: 'Noto Sans', monospace;
+  border: none;
+  color: #1E1B28;
+  padding: 6px;
+  border: 3px solid #CC9BC2;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #1E1B28;
+  color: #CC9BC2;
+}
+.button:active {
+  background-color: #CC9BC2;
+  color: #1E1B28;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #BC87B2;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #BC87B2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #BC87B2;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: normal;
+  color: #CC9BC2;
+  background-color: #1E1B28;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  font-family: 'Noto Sans', monospace;
+}
+
+.text, .input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: normal;
+  color: #CC9BC2;
+  background-color: #1E1B28;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: 'Noto Sans', monospace;
+}
+
+.hr {
+  border-color: #CC9BC2;
+}
