@@ -2,8 +2,7 @@ const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const lowercase = 'abcdefghijklmnop';
 const number = '0123456789'
 
-var settingLength = 16;
-var settingTime = 3;
+let settingLength = 16;
 
 function generateString(length) {
   let result = '';
@@ -51,7 +50,7 @@ function updateSettings() {
   if (document.getElementById("lengthInput").value.length == 0) {
     window.alert('Please input values in the setting boxes before generating a level.')
   } else {
-    var settingLength = document.getElementById("lengthInput").value;
+    let settingLength = document.getElementById("lengthInput").value;
     start(settingLength);
   }
 }
